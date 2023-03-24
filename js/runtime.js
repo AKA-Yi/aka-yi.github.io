@@ -29,23 +29,20 @@ function createtime() {
 		</span>
 		<i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i>
 		<br>
-		<b>旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</b>
-		<br>
 		<b>
-            <font size=2px>再看看那个光点，它就在这里，这是家园，这是我们 ——— 你所爱的每一个人，你认识的一个人，你听说过的每一个人，曾经有过的每一个人，都在它上面度过他们的一生✨</font>
+        <font size=2px>如果再也不能见到你, 那么祝你早安,午安,晚安✨</font>
         </b> ` : `
-		<img class='boardsign' src='https://img.shields.io/badge/YI_讲堂-打烊休息啦-6adea8?style=social&logo=CodeIgniter' title='下班了就该开开心心的玩耍，嘿嘿~'>
+		<img class='boardsign' src='https://img.shields.io/badge/YI_讲堂-下课休息啦-6adea8?style=social&logo=CodeIgniter' title='下班了就该开开心心的玩耍，嘿嘿~'>
 		<span class='textTip'> 
             <br> 
-            <b>本站居然运行了 ${o} 天</b>
+            <b>本站已经运行了 ${o} 天</b>
+		        <span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </span>
+        </b>
         </span>
-		<span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </span>
 		<i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i>
 		<br>
-		<b>旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</b>
-		<br>
 		<b>
-            <font size=2px>再看看那个光点，它就在这里，这是家园，这是我们 ——— 你所爱的每一个人，你认识的一个人，你听说过的每一个人，曾经有过的每一个人，都在它上面度过他们的一生✨</font>
+            <font size=2px>如果再也不能见到你, 那么祝你早安,午安,晚安✨</font>
         </b>`,
         document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = g)
 }
