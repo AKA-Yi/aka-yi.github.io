@@ -387,6 +387,25 @@ h6::before {
   animation: ccc 6s linear infinite;
 }
 
+/* 标签外框 */
+#aside-content .card-tag-cloud a {
+  border: 1px solid;
+  line-height: 1.5;
+  border-radius: 6px;
+  margin: 3px;
+  padding: 0 5px;
+}
+
+.tag-cloud-list a {
+  border: 1px solid;
+  line-height: 1.5;
+  border-radius: 6px;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  margin: 5px;
+}
+/* end标签外框 */
+
 /* /*
 2022.10.4更新：
 根据我发现的没有自适应，间距不合理问题进行调整，如果用了这个的朋友们建议改一改
