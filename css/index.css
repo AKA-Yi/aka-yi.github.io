@@ -1400,7 +1400,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://s2.loli.net/2023/03/23/zELW2oxZGtwmKSf.jpg);
+  background: url(https://s2.loli.net/2023/03/26/XdUCaAsTfDnxZMi.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -6284,7 +6284,7 @@ blockquote.pullquote.right {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: var(--anzhiyu-white);
+    color: white;
     background: linear-gradient(120deg, #7e57ff 0, #00d4ff 100%);
     background-size: 200%;
     animation: gradient 15s ease infinite;
